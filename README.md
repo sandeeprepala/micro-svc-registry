@@ -1,9 +1,9 @@
 # micro-svc-registry
 
-A **zero-config local service discovery layer** powered by an **Express-based daemon**.  
-Designed for Node.js microservices running locally — especially Express apps.
+A zero-config service discovery layer for local microservice development.
+It lets your services find each other dynamically without hardcoding ports, without maintaining .env files, and without running Docker or Kubernetes.
 
-No hardcoded ports, no .env syncing, no local DNS hacks, no Docker overhead.
+This is most useful when you're running multiple Node.js/Express microservices locally and you want them to communicate without guessing which port each service is on.
 
 ## Why this exists
 
